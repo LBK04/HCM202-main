@@ -129,30 +129,19 @@
 
 .hero-section__title-word {
   display: block;
-}
-
-.hero-section__title-word--line1 {
-  background: linear-gradient(135deg, #ffffff 30%, rgba(255, 255, 255, 0.75));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: #ffffff;
+  background: none;
+  -webkit-text-fill-color: #ffffff;
   text-shadow: none;
 }
 
-.hero-section__title-word--line2 {
-  background: linear-gradient(135deg, #ff8a8a, #ffd2d2);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-
+.hero-section__title-word--line1,
+.hero-section__title-word--line2,
 .hero-section__title-word--line3 {
-  background: linear-gradient(135deg, #ff6b6b, #b91c1c);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: #ffffff;
+  background: none;
+  -webkit-text-fill-color: #ffffff;
 }
-
 .hero-section__divider {
   display: flex;
   align-items: center;
