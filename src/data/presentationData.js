@@ -1,6 +1,5 @@
 export const presentationData = {
   hero: {
-    label: "Tư tưởng Hồ Chí Minh",
     title: "Đại đoàn kết",
     titleLine2: "toàn dân tộc",
     titleLine3: "và đoàn kết quốc tế",

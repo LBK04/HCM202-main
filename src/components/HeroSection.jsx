@@ -93,14 +93,7 @@ const HeroSection = ({ data }) => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.2, ease: "easeOut" }}
         >
-          <motion.div
-            className="hero-section__label"
-            initial={{ opacity: 0, scale: 0.9 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.6, delay: 0.2 }}
-          >
-            {data.label}
-          </motion.div>
+         
 
           <h1 className="hero-section__title">
             <motion.span
